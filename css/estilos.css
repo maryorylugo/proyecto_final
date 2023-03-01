@@ -1,0 +1,112 @@
+
+nav{
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    position: flex;
+    background-color: whitesmoke;
+    box-shadow: 5px 10px rgba(0,0,0,0.2);
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.section{
+    padding-bottom: 3rem;
+    margin: 0 auto;
+    max-width: 1170px;
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+    border-radius: 1rem;
+
+    /*box-shadow: 5px 10px rgba(0,0,0,0.2);
+*/}
+.section ul li{
+  text-align: left;
+  font-size: 1rem ;
+  margin-left: 5rem;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  margin-bottom: 1rem;
+
+
+}
+h1{
+   font-size: 2.5rem;
+   font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgba(197, 196, 196, 0.486)
+}
+h2{
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
+}
+h3{
+  font-family: 'Roboto', sans-serif;
+
+}
+
+main {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  .links-container{
+    display: block;
+  }
+  .links  {
+    display: flex;
+  }
+
+  .links a{
+    padding:  0;
+    display: block;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    align-items: center;
+    margin-right: 1rem;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  footer p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.25rem;
+    margin-bottom: 0;
+    padding-top: 2rem;
+  }
+  ul{
+    list-style: none;
+  }
+  p{
+    font-family: 'Roboto', sans-serif;
+  }
+  .show-info{
+    text-transform:lowercase;
+    font-size: 1rem;
+    display: inline;
+    
+  }
+
+#btn{
+  display: inline; 
+  position: fixed; 
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; 
+  border: none; 
+  outline: none;
+  background-color: rgb(0, 0, 0); 
+  color: white; 
+  cursor: pointer;
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 1.5rem; 
+}
+
+#btn:hover {
+  background-color: #e41212; 
+}
